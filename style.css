@@ -54,14 +54,22 @@ td {
     
     margin: 0 auto;
 }
-
+button {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 7vh;
+    padding: 5px;
+    margin: 10px;
+}
 #leftButton {
     order: 1;
-    height: 5vh;
+    
 }
 #rightButton {
     order: 3;
-    height: 5vh;
+    
 }
 @media only screen and (max-width: 600px) {
     td {
