@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    background-image: linear-gradient(to bottom right, red,blue);
+    color: white;
+}
+td {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 3px;
+}
+button {
+    margin-top: 20px;
+}
