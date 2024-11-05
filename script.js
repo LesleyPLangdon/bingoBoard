@@ -165,6 +165,8 @@ console.log(finalBingoEntries);
 
 
 function generateBingoCard() {
+
+    
     // Make a copy of the bingo entries to avoid modifying the original array
     const entriesCopy = [...finalBingoEntries];
     const selectedEntries = [];
@@ -198,4 +200,17 @@ function generateBingoCard() {
              event.target.style.color = 'black';
          }
      });
+}
+function resetBingoCard() {
+    const table = document.getElementById('bingoTable');
+    for (let i = 1; i <= 24; i++) {
+        const cell = document.getElementById(`${i}`);
+        if (cell) {
+            cell.style.backgroundColor = ''; // Reset background color
+            cell.style.color = ''; // Reset text color
+        }
+    }
+    const midCell = document.getElementById('free');
+    midCell.style.backgroundColor = ''; // Reset background color
+    midCell.style.color = ''; // Reset text color
 }
