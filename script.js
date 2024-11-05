@@ -59,7 +59,7 @@ for (let i = 0; i < states.length; i++) {
 }
 const otherEvents = [
     "Trump declares victory before polls close",
-    "First state called by AP before 7 PM",
+    "Four states called by AP before 7:30 PM",
     "Major news network projects a presidential candidate's win with only 5% of the vote counted",
     "Unexpected ballot counting issues delay results in a swing state",
     "A state is called incorrectly by CNN, FOX, or MSNBC and has to be retracted",
