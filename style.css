@@ -49,17 +49,12 @@ td {
     font-size: 20px;
     padding: 3px;
 }
-button {
-    
-} 
 
 #bingoBoard {
     
     margin: 0 auto;
 }
-#boardButtons {
-    
-}
+
 #leftButton {
     order: 1;
     height: 5vh;
