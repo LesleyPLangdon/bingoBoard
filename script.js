@@ -65,7 +65,6 @@ const otherEvents = [
     "A state is called incorrectly by CNN, FOX, or MSNBC and has to be retracted",
     "A third party presidential candidate wins electoral college vote(s)",
     "Electoral college margin within 10 votes with only 3 states reporting",
-    "First state with electoral college votes flips unexpectedly at midnight",
     "Electoral college projections show a tie at 11 PM",
     "Electoral college count reaches 270 before midnight",
     "Electoral college margin over 10 votes at 10pm",
